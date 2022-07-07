@@ -1,0 +1,20 @@
+footer {
+    grid-area: footer;
+    width: auto;
+    height: auto;
+    position: sticky;
+    background-color: rgb(160, 159, 160);
+    height: 100%;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;   
+    display: flex;
+    align-items: center;
+    top: 2%;
+    margin: 5px;
+    h5 {
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif; 
+        margin: 5px ;
+    }
+}

@@ -1,0 +1,55 @@
+main {
+    grid-area: main;
+    
+}
+
+.mainInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3 {
+        text-align: center;
+        color: rgb(247, 244, 244);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.mainFotos img {
+    margin: 5px;
+    border-radius: 10px;
+    border: solid 10px #ffff;
+    -webkit-box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.36); 
+    box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.36);
+    &:hover {
+        transform: scale(1.2); 
+    
+    }
+
+}
+
+.mainCamaras img {
+    margin: 5px;
+    border-radius: 10px;
+    border: solid 10px #ffff;
+    -webkit-box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.36); 
+    box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.36);
+    &:hover {
+        transform: scale(1.2); 
+    
+    }
+   
+}
+
+.mainContacto {
+    margin: 3px;
+    display: table-column;
+    background-color: rgba(128, 128, 128, 0.507);
+    border-radius: 10px;
+}
+.contactoFoto {
+   margin: 10px;
+}
+.datos {
+    margin: 15px;
+    padding: 20px;
+}
