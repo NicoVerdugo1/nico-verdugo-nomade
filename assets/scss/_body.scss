@@ -6,10 +6,9 @@ body {
     margin: 5px;
     border-radius: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
     grid-template-areas:"h1 h1 h1" 
-                        "nav nav nav"
+                        "navbar navbar navbar "
                         "header header header"
                         "main main main"
                         "asaid asaid asaid"

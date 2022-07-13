@@ -2,8 +2,10 @@ header {
     grid-area: header;
     display: flex;  
     justify-content: center; 
+    
     h2 {
         color: rgb(235, 233, 233);
         font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 0%;
     }
 }
