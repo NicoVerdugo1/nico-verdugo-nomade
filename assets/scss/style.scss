@@ -13,13 +13,13 @@ html {
     background-attachment: fixed;
         
 }
-@import "_body.scss";
-@import "_h1.scss";
-@import "_nav";
-@import "_header";
-@import "_main.scss";
+@import "body.scss";
+@import "h1.scss";
+@import "nav";
+@import "header";
+@import "main.scss";
 @import "footer.scss";
-
+@import "variables.scss";
 
 
  

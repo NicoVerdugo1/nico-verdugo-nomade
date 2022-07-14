@@ -1,5 +1,6 @@
 main {
     grid-area: main;
+    margin-bottom: 5px;
 }
 
 .mainInicio {
@@ -42,11 +43,19 @@ main {
     display: table-column;
     background-color: rgba(128, 128, 128, 0.507);
     border-radius: 10px;
-}
-.contactoFoto {
-   margin: 10px;
-}
-.datos {
-    margin: 15px;
-    padding: 20px;
+
+    .contactoFoto {
+        margin: 10px;
+     }
+     .datos {
+         margin: 15px;
+         padding: 20px;
+     }
+    .btn{
+        padding:map-get($btn , padding );
+        border:map-get($btn , bordes);
+        border-radius:map-get($btn, radio );
+        color: map-get($btn , color ); 
+    } 
+       
 }

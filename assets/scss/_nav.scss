@@ -5,7 +5,7 @@ nav{
     
     .barnav {
     padding: 5px;
-    background-color: rgb(180, 180, 180);
+    background-color: $colorprimario;
     border-start-start-radius: 10px;
     border-start-end-radius: 10px;  
     animation-name: barracolor;
@@ -33,19 +33,23 @@ nav{
     li{
         a{
             margin: 3px;
-            color: rgb(255, 255, 255);
+            color: rgb(228, 228, 228);
             font-family: Oswald; 
             font-size: 12px;
             &:hover{
-                transform: scale(1.3);
-                color: rgb(230, 230, 230);
+                color: rgb(255, 255, 255);
+                font-weight: bold;   
             } 
+             
             @media(min-width:758px){
                 font-size: 25px;
                 margin: 5px;
-            }
-                     
-            }
+            }        
+         }
+            
+         &:hover{
+                transform: scale(1.3);
+             } 
         }
     }
     }
