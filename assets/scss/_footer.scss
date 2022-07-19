@@ -3,7 +3,7 @@ footer {
     width: auto;
     height: auto;
     position: sticky;
-    background-color: $colorprimario;
+    background-color: rgb(180, 180, 180) ;
     height: 100%;
     border-end-end-radius: 10px;
     border-end-start-radius: 10px;   
@@ -17,4 +17,22 @@ footer {
         margin-bottom: 0%;
         margin-left: 5px;
     }
+    .redes{
+        ul{ 
+            list-style: none;
+            display: flex;
+            margin-bottom: 4px;
+            margin-right: 4px;
+            padding-left: 0%;
+
+        li{
+           img {
+                    height: 20px;
+                    &:hover{
+                        transform: scale(1.3);
+                    }
+                }         
+            }
+        }
+        }
 }

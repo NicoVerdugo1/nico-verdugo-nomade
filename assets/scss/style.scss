@@ -5,7 +5,7 @@
 
 }
 html {
-    background-image: url("../img/fotos/img214.jpg");
+    background-image: url("../img/fotos/color/img214.jpg");
     background-position-x: center;
     background-position-y: center;
     background-position: center;
@@ -13,13 +13,10 @@ html {
     background-attachment: fixed;
         
 }
-@import "body.scss";
-@import "h1.scss";
+@import "body";
+@import "h1";
 @import "nav";
 @import "header";
-@import "main.scss";
-@import "footer.scss";
-@import "variables.scss";
-
-
- 
+@import "main";
+@import "footer";
+@import "variantes";
