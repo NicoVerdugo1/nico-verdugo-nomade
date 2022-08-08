@@ -19,10 +19,32 @@ main {
         color: rgb(247, 244, 244);
         font-family: Arial, Helvetica, sans-serif;
     }
+    p{
+        font-family:Arial, Helvetica, sans-serif;
+        
+        font-size: 18px;
+        margin-top: 20px;
+      
+
+    }
 }
 
-.mainFotos img {
+.mainFotos{
+    
+    h4{
+        display: flex;
+        justify-content: center;
+        margin: 0%;
+        font-size: 15px;
+    } 
+    p{
+        margin: 0%;
+        font-size: 10px;
+    }   
+    img {
     margin: 5px;
+    margin-bottom: 0%;
+    margin-top: 25px;
     border-radius: 10px;
     border: solid 10px #ffff;
     -webkit-box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.36); 
@@ -31,20 +53,47 @@ main {
         transform: scale(1.2); 
     
     }
-
+    }
+    .infoFotos{
+        font-family: Oswald; 
+        margin-top: 15px;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
 }
 
-.mainCamaras img {
-    margin: 5px;
-    border-radius: 10px;
-    border: solid 10px #ffff;
-    -webkit-box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.36); 
-    box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.36);
-    &:hover {
-        transform: scale(1.2); 
-    
+
+.mainCamaras{
+    display: flex;
+
+    .tarjetasCamaras{
+        justify-content: center;
+        .tarCamara{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            h4{
+                margin: 0%;
+            }
+            p{
+                margin: 0%;
+            }
+            img {
+                margin: 5px;
+                border-radius: 10px;
+                border: solid 10px #ffff;
+                -webkit-box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.36); 
+                box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.36);
+                &:hover {
+                    transform: scale(1.1); 
+                
+                }
+                    
+        }
     }
    
+    }
+    
 }
 
 .mainContacto {
@@ -63,3 +112,47 @@ main {
     
        
 }
+.mainPortfolio{
+    img{
+        margin-top: 10px;
+    }
+    .bnPapel{
+        margin-top: 20px;
+    }
+    p{
+        font-family: Oswald; 
+       font-size: large;
+    }
+}
+
+.mainCursos{
+    .tarjetasCursos{
+
+        .tarCurso{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            img{
+                margin: 10px;
+            }             
+        }
+      
+        p{
+           font-weight: bold;
+           color: rgb(110, 110, 110);
+           &:hover {
+            color: black;
+        
+        }
+        }
+    }
+    .infoCursos{
+        font-family: Oswald; 
+        margin-top: 15px;
+        font-size: 20px;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+}
+
+
