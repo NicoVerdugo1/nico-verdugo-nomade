@@ -37,6 +37,10 @@ main {
         margin: 0%;
         font-size: 15px;
     } 
+    .tarfotos{
+        display: flex;
+        flex-direction: column;
+        
     p{
         margin: 0%;
         font-size: 10px;
@@ -54,6 +58,7 @@ main {
     
     }
     }
+}
     .infoFotos{
         font-family: Oswald; 
         margin-top: 15px;
